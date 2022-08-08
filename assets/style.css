@@ -1,6 +1,9 @@
 body {
     font-family: arial;
 }
+/* body .wrapper{
+    margin:0 auto;
+} */
 
 a {
     margin: 5px;
@@ -16,14 +19,20 @@ a {
     text-align: right;
 }
 
-h1{
-    text-align: center;
-}
-p{
+.quizquestions{
     text-align: center;
 }
 
+ol {
+    background-color: purple;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
 
+ol :hover{
+    background-color: pink;
+}
 
 button {
     color: white;
@@ -36,21 +45,60 @@ button {
     width: auto;
 
 }
+
 button:hover {
     background-color: green;
 }
+hr {
+    color: lightgray;
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+}
+/* Put something here to make Correct! or Wrong! appear under the hr line */
 
-
-
-
-@media screen and (max-width: 1400px){
+label{
+    /* Enter Initials */
+    text-align: left;
+}
+/* Submit button */
+.button2{
+    color: white;
+    background-color: purple;
+}
+.button2 :hover{
+    background-color: pink;
+}
+hr {
+    color: lightgray;
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+}
+/* Go Back Button */
+.button3{
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    border-radius: 60px;
+}
+/* Clear High Scores button */
+.button4{
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    border-radius: 60px;
 }
 
-@media screen and (max-width: 960px){
-}
 
-@media screen and (max-width: 700px){
-}
 
-@media screen and (max-width: 560px){
-}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 700px) {}
+
+@media screen and (max-width: 560px) {}
