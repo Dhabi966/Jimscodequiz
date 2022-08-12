@@ -3,29 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+
     <title>Code Quiz</title>
 </head>
 
 <body>
-    <div><a href="highscores.html">View High Scores</a></div>
+   
+    <a href="highscores.html">View High Scores</a>
 
-    <div class="timer"></div>
+    <div id="currentTime"></div>
+    
+    <div id="wrapper">
+        
+        
+        <div id="questionsDiv">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers
+                will penalize your score/time by ten seconds!</p>
 
-    <div class="quizStart">
-        <h1>Code Quiz Challenge</h1>
-        <p>Try to answer the following code-related questions
-            within the time limit.Keep in mind that incorrect
-            answers will penalize your score/time by 10 seconds!</p>
+            <ol id="choicesOl"></ol>
+            
+            <button id="startTime">Start Quiz</button>
+        </div>
 
-
-        <ol class="multipleChoice"></ol>
-
-        <button type="startQuiz">Start Quiz</button>
     </div>
 
-    <script a href="quizquestions.js"></script>
+
+    <script src="questions.js"></script>
+
+
 </body>
 
 </html>

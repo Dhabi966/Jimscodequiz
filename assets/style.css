@@ -1,94 +1,206 @@
-body {
-    font-family: arial;
+#wrapper {
+    position: relative;
+    left: -7%;
+    top: 2rem;
+    width: 85%;
+    height: 50rem;
+    border: 1px solid purple;
+    margin-left: 15%;
 }
 
-
-a {
-    margin: 5px;
-    padding: 5px;
-    text-decoration: none;
+#startTime {
+    background-color: purple;
+    margin: 0;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
 }
 
-.timer {
-    margin-top: -15px;
-    margin-right: 40px;
-    padding: 1px;
-    font-weight: bold;
-    text-align: right;
+#startTime:hover {
+    background-color: grey;
+
 }
 
-.quizStart{
+#questionsDiv {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+}
+
+#currentTime {
+    float: right
+}
+
+#goBack {
+    background-color: purple;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+    margin-right: 20rem;
+    text-align: center;
+    border: 2px black solid;
+
+
+}
+
+#goBack:hover {
+    background-color: grey;
+}
+
+#clear {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+    margin-right: -42rem;
+    right: 60%;
+    border: 2px black solid;
+
+}
+
+#clear:hover {
+    background-color: grey;
+}
+
+button {
+    border-radius: 8px;
+    margin-left: -10px;
+
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: purple;
+    margin: 2%;
+    padding: 7px 7px;
+    font-size: 17px;
+    color: white;
+}
+
+#Submit:hover {
+    background-color: grey;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+h1 {
     text-align: center;
 }
 
 ol {
+    margin-left: 0px;
+}
+
+li {
     background-color: purple;
+    margin-top: 10px;
+    margin-left: 23rem;
+    padding: 5px 15px;
+    width: 30%;
+    border-radius: 60px;
+    font-size: 18px;
     color: white;
     text-align: left;
-    font-size: 20px;
+    border: 2px black solid;
+    position: relative;
 }
 
-ol :hover{
-    background-color: pink;
+li:hover {
+    background-color: grey;
 }
 
-.startQuiz {
-    color: white;
-    background-color: purple;
+
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    text-align: center;
     padding: 10px;
-    margin: auto;
-    display: block;
+}
+
+#createP {
     font-size: 20px;
-    border-radius: 60px;
-    width: auto;
-}
-.startQuiz:hover {
-    background-color: green;
 }
 
-
-label{
-    /* Enter Initials */
-    text-align: left;
-}
-input{
-    margin: 20px;
-    width: 20%;
-    border: 1px solid black;
-}
-/* Submit button */
-.button2{
-    color: white;
-    background-color: purple;
-}
-.button2 :hover{
-    background-color: pink;
-}
-
-/* Go Back Button */
-.button3{
-    display: inline-block;
-    color: white;
-    background-color: purple;
-    font-size: 20px;
-    border-radius: 60px;
-}
-/* Clear High Scores button */
-.button4{
-    display: inline-block;
-    color: white;
-    background-color: purple;
-    font-size: 20px;
-    border-radius: 60px;
-}
-
-
-
-
-@media screen and (max-width: 1400px) {}
 
 @media screen and (max-width: 960px) {}
 
+#wrapper {
+    margin-left: 14%;
+}
+
+li {
+    width: 40%;
+    margin-left: 12rem;
+}
+
+#clear {
+    margin-right: -13.5rem;
+    margin-left: 8rem;
+}
+
+#goBack {
+    margin-left: 13rem;
+    margin-right: -1rem;
+}
+
+
 @media screen and (max-width: 700px) {}
 
+#wrapper {
+    margin-left: 14%;
+}
+
+li {
+    width: 40%;
+    margin-left: 9rem;
+}
+
+#clear {
+    margin-right: -5rem;
+    margin-left: 6rem;
+}
+
+#goBack {
+    margin-left: 15rem;
+    margin-right: -6rem;
+}
+
 @media screen and (max-width: 560px) {}
+
+#wrapper {
+    margin-left: 14%;
+}
+
+li {
+    width: 40%;
+    margin-left: 5.8rem;
+}
+
+#clear {
+    margin-right: -9rem;
+    margin-left: -9rem;
+}
+
+#goBack {
+    margin-left: 2rem;
+    margin-right: 3rem;
+
+}

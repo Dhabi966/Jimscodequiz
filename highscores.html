@@ -3,19 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <title>High Scores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+
 </head>
 
 <body>
-    <div class="timer"></div>
-    <div class="quizStart">
-        <h1>High Scores</h1>
-        <ol class="multipleChoice"></ol>
-        <button class="goBack">Go back</button>
-        <button class="clear" value="reset">Clear high scores</button>
-    </div>
+    <div id="wrapper">
+        <div id="currentTime"></div>
+        <div id="questionsDiv">
+            <h1>High Scores</h1>
+            <ol id="highScore"><ol>
+            <button id="goBack">Go Back</button>
+            <button id="clear" value="reset">Clear High Score</button>
+
+        </div>
+    
     </div>
     <script src="highscores.js"></script>
 </body>
