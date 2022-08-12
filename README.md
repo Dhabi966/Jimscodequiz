@@ -23,7 +23,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
-GitHub Repo URL: 
+GitHub Repo URL: https://github.com/Dhabi966/Jimscodequiz
 
 GitHub Pages Link: 
 
