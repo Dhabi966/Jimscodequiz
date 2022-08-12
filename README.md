@@ -28,4 +28,4 @@ GitHub Repo URL:
 GitHub Pages Link: 
 
 Screenshot
-image.png
+![codeQuizscreenshot](https://user-images.githubusercontent.com/108851005/184296225-3cb265cf-fe8a-4156-98b6-176847393e1a.png)
