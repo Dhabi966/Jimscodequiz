@@ -138,9 +138,9 @@ li:hover {
 #createP {
     font-size: 20px;
 }
+@media screen and (max-width: 1400px) {}
 
-
-@media screen and (max-width: 960px) {}
+/*@media screen and (max-width: 960px) and (min-width: 701px){}
 
 #wrapper {
     margin-left: 14%;
@@ -162,7 +162,7 @@ li {
 }
 
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 700px) and (min-width: 561px) {}
 
 #wrapper {
     margin-left: 14%;
