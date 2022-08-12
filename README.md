@@ -25,7 +25,7 @@ THEN I can save my initials and my score
 ```
 GitHub Repo URL: https://github.com/Dhabi966/Jimscodequiz
 
-GitHub Pages Link: 
+GitHub Pages Link: https://dhabi966.github.io/Jimscodequiz/
 
 Screenshot
 ![codeQuizscreenshot](https://user-images.githubusercontent.com/108851005/184296225-3cb265cf-fe8a-4156-98b6-176847393e1a.png)
